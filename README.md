@@ -1,2 +1,37 @@
-# alipay
-签约
+### 第一步
+1. 打开[支付宝开放平台](https://open.alipay.com/platform/home.htm)
+2. 扫码登录后，页面自动刷新
+3. 点击页面上方**开发者中心**
+4. 可以看到**我的应用**模块, 点击**网页&移动应用**, 选择**自定义接入**, 跳转到新的创建页面
+5. 输入应用名称, 上传任意图片, 即可**确认创建**
+6. 返回**开发者中心**, 找到**网页&移动应用**, 点击右上角应用的**列表**选择, 点击**查看**
+7. ![应用列表选择](https://github.com/the-Rings/financeflow/blob/master/%E5%BA%94%E7%94%A8%E5%88%97%E8%A1%A8%E9%80%89%E6%8B%A9.png)
+
+### 第二步
+1. 在应用概览页面中, 拉到最下边, 找到**开发设置**, **接口加签方式** -> **设置**
+![开发设置-选择接口加签](https://github.com/the-Rings/financeflow/blob/master/%E5%BC%80%E5%8F%91%E8%AE%BE%E7%BD%AE-%E9%80%89%E6%8B%A9%E6%8E%A5%E5%8F%A3%E5%8A%A0%E7%AD%BE.png)
+2. 在弹出的小页面中, 选择**加签模式** -> **公钥证书**
+3. ![加签管理](https://github.com/the-Rings/financeflow/blob/master/%E5%8A%A0%E7%AD%BE%E7%AE%A1%E7%90%86-%E4%B8%8B%E8%BD%BD%E6%94%AF%E4%BB%98%E5%AE%9D%E5%AF%86%E9%92%A5%E7%94%9F%E6%88%90%E5%99%A8.png)
+
+4. 点击下载**支付宝密钥生成器**, 将跳到一个新的页面
+
+### 第三步
+1. 在[弹出的页面](https://opendocs.alipay.com/open/291/106097/), 点击WINDOW版本的**支付宝开发平台开发助手**, 开始下载
+![下载开始](https://github.com/the-Rings/financeflow/blob/master/%E4%B8%8B%E8%BD%BD%E5%BC%80%E5%A7%8B.png)
+2. 下载完成后, 打开安装文件, 等待安装完成, 之后点击**完成**
+![安装位置](https://github.com/the-Rings/financeflow/blob/master/%E5%AE%89%E8%A3%85%E4%BD%8D%E7%BD%AE.png)
+3. 打开**支付宝开发平台开发助手**, 获取CSR文件
+![获取CSR文件](https://github.com/the-Rings/financeflow/blob/master/%E8%8E%B7%E5%8F%96CSR%E6%96%87%E4%BB%B6.png)
+4. 按照图中的步骤, 依次操作
+4. 最后**打开文件位置**, 显示的三个文件, 最好在其他地方备份一份, 妥善保管, 不得泄露
+
+### 第四步
+1. 还是在**支付宝开放平台开发助手**中, 点击最下边的**上传公钥**
+![上传CSR文件](https://github.com/the-Rings/financeflow/blob/master/%E4%B8%8A%E4%BC%A0CSR%E6%96%87%E4%BB%B6.png)
+2. 然后跳转到了**账户中心**, , 上传成功后, 等待页面自动刷新
+3. 返回**开发者中心**, 找到**网页&移动应用**, 点击右上角应用的**列表**选择, 点击**查看**
+4. 在页面中部, 选择**添加能力**
+![添加能力](https://github.com/the-Rings/financeflow/blob/master/%E6%B7%BB%E5%8A%A0%E8%83%BD%E5%8A%9B.png)
+5. 添加成功, 页面刷新之后, 点击右边的签约, 签约过程需要, 签署协议, 提交审核, 如果未出现错误警告, 表示账号符合资格
+6. 等待签约成功即可
+
