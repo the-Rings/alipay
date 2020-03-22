@@ -1,5 +1,5 @@
 ### 第一步
-1. 打开[支付宝开放平台](https://open.alipay.com/platform/home.htm)
+1. 打开<a href="https://open.alipay.com/platform/home.htm" target="_blank">支付宝开放平台</a>
 2. 扫码登录后，页面自动刷新
 3. 点击页面上方**开发者中心**
 4. 可以看到**我的应用**模块, 点击**网页&移动应用**, 选择**自定义接入**, 跳转到新的创建页面
